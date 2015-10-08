@@ -1444,7 +1444,7 @@ function! <SID>SrcExpl_Init()
     let s:SrcExpl_lastSymbol = ''
 
     " Auto change current work directory
-    exe "set autochdir"
+    " exe "set autochdir"
     " Let Vim find the possible tags file
     exe "set tags=tags;"
     " Set the actual update time according to user's requirement
